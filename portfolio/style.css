@@ -1,0 +1,719 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  background: #000000;
+  color: rgb(255, 255, 255);
+  cursor: url('assets/cur1160.ani')4 4,auto;
+}
+
+.hero {
+  padding: 60px 20px;
+  max-height:40%;
+  overflow: hidden;
+  background:linear-gradient(#051423,rgb(9, 1, 60),black);
+  color: white;
+  perspective: 1000px;
+ 
+}
+.prf-container {
+  border: 7px solid aqua;
+  position: relative;
+  width: 300px;
+  height: 300px;
+  left: 75%;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 5px 5px 40px aqua;
+}
+.profile-img {
+  width: 300px;
+  position: relative;
+  right: 6px;
+  bottom: 3px;
+  z-index: 1;
+  filter: grayscale(0%);
+  transition: transform 0.2s ease-in-out;
+}
+.hero h1 {
+   position: absolute;
+    top: 70px;
+    left: 10%;
+    font-size: 80px;
+    
+  
+}
+.hero p {
+   position: absolute;
+    top: 45%;
+    left: 5%;
+    font-size: 40px;
+}
+.hero .btn {
+   position: absolute;
+    top: 60%;
+    left: 30%;
+    font-size: 30px;
+    border: 2px solid #00eeff;
+    background: transparent;
+    color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+    &:hover {
+  background: #00eeff;
+  color: #000;
+  box-shadow: 0 0 10px #00eeff, 0 0 20px #00eeff, 0 0 40px #00eeff;
+}
+}
+ .imgcard {
+  justify-content: center;
+  left: 45%;
+  top: 90%;
+  position: absolute;
+  display: none;
+  opacity: 50%;
+  cursor: pointer;
+  z-index: 2;
+  &:hover{
+    opacity: 100%;
+  }
+ }
+ .image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.hover-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+  padding: 10px 20px;
+  background-color: #ff6f61;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.image-container:hover .hover-button {
+  display: block;
+}
+ 
+  
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #3398db;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+article {
+  height: 900px;
+  display: none;
+
+}
+section {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+}
+.wrapper {
+  border: 1px solid rgb(255, 255, 255);
+  padding: 15px;
+  height: 50px;
+  width: 100%;
+  max-width: 1536px;
+  margin-inline: auto;
+  margin-bottom: 5rem;
+  position: relative;
+  overflow: hidden;
+  mask-image: linear-gradient(
+    to right,
+    rgba(0,0,0,0),
+     rgba(0,0,0,1) 20%,
+      rgba(0,0,0,1) 80%,
+       rgba(0,0,0,0)
+
+  );
+
+}
+@keyframes scrollleft{
+  to{
+    left: -200px;
+  }
+}
+.item {
+  width: 200px;
+  height: 50px;
+  background-color: #3398db;
+  border-radius: 6px;
+  position: absolute;
+  left: max(calc(200px*8),100%);
+  animation-name: scrollleft;
+  animation-duration: 30s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  justify-content: center;
+}
+.custom-purple-link{
+  color: blueviolet;
+}
+.item1{
+  background-color: rgb(255, 255, 255);
+  animation-delay: calc(30s/ 8 * (8 - 1) * -1);
+}
+.item2{
+  background-color:rgb(255, 255, 255);
+  animation-delay: calc(30s / 8 * (8 - 2) * -1);
+}
+.item3{
+  background-color: rgb(255, 255, 255);
+  animation-delay: calc(30s / 8 * (8 - 3) * -1);
+}
+.item4{
+  background-color: rgb(255, 255, 255);
+  animation-delay: calc(30s / 8 * (8 - 4) * -1);
+}
+.item5{
+  background-color: rgb(255, 255, 255);
+  animation-delay: calc(30s / 8 * (8 - 5) * -1);
+}
+.item6{
+  background-color: rgb(255, 255, 255);
+  animation-delay: calc(30s / 8 * (8 - 6) * -1);
+}
+.item7{
+  background-color: rgb(255, 255, 255);
+  animation-delay: calc(30s / 8 * (8 - 7) * -1);
+}
+.item8{
+  background-color: rgb(255, 255, 255);
+  animation-delay: calc(30s / 8 * (8 - 8) * -1);
+}
+
+.project-grid {
+  display: block;
+  position: relative;
+  justify-content: center;
+  border: 1px solid rgb(255, 255, 255);
+  height: 350px;
+  overflow: hidden;
+  mask-image: linear-gradient(
+    to right,
+    rgba(0,0,0,0),
+     rgba(0,0,0,1) 20%,
+      rgba(0,0,0,1) 80%,
+       rgba(0,0,0,0)
+
+  );
+
+}
+@keyframes scrollright {
+  to{
+      left: 1200px;
+  }
+}
+
+.project-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 280px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  text-align: left;
+  position: absolute;
+  left:-200px;
+  animation: scrollright 9s linear infinite;
+}
+.pcard1{
+  animation-delay: calc(9s / 3 * (3 - 1) * -1);
+}
+.pcard2{
+  animation-delay: calc(9s / 3 * (3 - 2) * -1);
+}
+.pcard3{
+  animation-delay: calc(9s / 3 * (3 - 3) * -1);
+}
+
+
+.project-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.progress-container{
+  margin: 40px;
+  padding: 20px;
+  width: 50%;
+  height: fit-content;
+  position: relative;
+  left: 25%;
+  background: rgb(255, 255, 255,0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  box-shadow: 0 0 1rem 0 rgba(0,0,0,0.2);
+  border: 1px solid rgba(255,255,255,0.3);
+}
+
+.luffy {
+  width: 80px;
+  position: relative; /* or absolute, depending on your layout */
+  animation: luffyRun 3s ease-in-out forwards;
+}
+
+@keyframes luffyRun {
+  from {
+    left: 0%;
+  }
+  to {
+    left: 83%;
+  }
+}
+.racebike {
+  width: 70px;
+  position: relative; /* or absolute, depending on your layout */
+  animation: raceRun 3s ease-in-out forwards;
+}
+
+@keyframes raceRun {
+  from {
+    left: 0%;
+  }
+  to {
+    left: 80%;
+  }
+}
+.heavybike {
+  width: 70px;
+  position: relative; /* or absolute, depending on your layout */
+  animation: heavyRun 3s ease-in-out forwards;
+}
+
+@keyframes heavyRun {
+  from {
+    left: 0%;
+  }
+  to {
+    left: 60%;
+  }
+}
+.rocket {
+  width: 70px;
+  position: relative; /* or absolute, depending on your layout */
+  animation: rocketRun 3s ease-in-out forwards;
+}
+
+@keyframes rocketRun {
+  from {
+    left: 0%;
+  }
+  to {
+    left: 80%;
+  }
+}.fastrun {
+  width: 80px;
+  position: relative; /* or absolute, depending on your layout */
+  animation: fastRun 3s ease-in-out forwards;
+}
+
+@keyframes fastRun {
+  from {
+    left: 0%;
+  }
+  to {
+    left: 55%;
+  }
+}.marry {
+  width: 60px;
+  position: relative; /* or absolute, depending on your layout */
+  animation: marryRun 3s ease-in-out forwards;
+}
+
+@keyframes marryRun {
+  from {
+    left: 0%;
+  }
+  to {
+    left: 75%;
+  }
+}.runman {
+  width: 90px;
+  position: relative; /* or absolute, depending on your layout */
+  animation: manRun 3s ease-in-out forwards;
+}
+
+@keyframes manRun {
+  from {
+    left: 0%;
+  }
+  to {
+    left: 65%;
+  }
+}.bicycle {
+  width: 60px;
+  position: relative; /* or absolute, depending on your layout */
+  animation: cycleRun 3s ease-in-out forwards;
+}
+
+@keyframes cycleRun {
+  from {
+    left: 0%;
+  }
+  to {
+    left: 55%;
+  }
+}
+
+.one .progress-bar{
+  animation: fillUp1 3s ease-in-out forwards;
+  background-color: #28a745; /* You can change this to fit your theme */
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+}
+@keyframes fillUp1 {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 95%; /* Adjust this to match your goal */
+  }
+}.two .progress-bar{
+  animation: fillUp2 3s ease-in-out forwards;
+  background-color: #28a745; /* You can change this to fit your theme */
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+}
+@keyframes fillUp2 {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 90%; /* Adjust this to match your goal */
+  }
+}.three .progress-bar{
+  animation: fillUp3 3s ease-in-out forwards;
+  background-color: #28a745; /* You can change this to fit your theme */
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+}
+@keyframes fillUp3 {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 75%; /* Adjust this to match your goal */
+  }
+}.four .progress-bar{
+  animation: fillUp4 3s ease-in-out forwards;
+  background-color: #28a745; /* You can change this to fit your theme */
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+}
+@keyframes fillUp4 {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 98%; /* Adjust this to match your goal */
+  }
+}.five .progress-bar{
+  animation: fillUp5 3s ease-in-out forwards;
+  background-color: #28a745; /* You can change this to fit your theme */
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+}
+@keyframes fillUp5 {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 70%; /* Adjust this to match your goal */
+  }
+}.six .progress-bar{
+  animation: fillUp6 3s ease-in-out forwards;
+  background-color: #28a745; /* You can change this to fit your theme */
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+}
+@keyframes fillUp6 {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 90%; /* Adjust this to match your goal */
+  }
+}.seven .progress-bar{
+  animation: fillUp7 3s ease-in-out forwards;
+  background-color: #28a745; /* You can change this to fit your theme */
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+}
+@keyframes fillUp7 {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 80%; /* Adjust this to match your goal */
+  }
+}.eight .progress-bar{
+  animation: fillUp8 3s ease-in-out forwards;
+  background-color: #28a745; /* You can change this to fit your theme */
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+}
+@keyframes fillUp8 {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 75%; /* Adjust this to match your goal */
+  }
+}
+.prj-container{
+  margin: 30px;
+  background-image: url('assets/agroconnect.jpeg');
+  background: rgb(255, 255, 255,0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  box-shadow: 0 0 1rem 0 rgba(0,0,0,0.2);
+  border: 1px solid rgba(255,255,255,0.3);
+  padding:20px;
+  display: none;
+  overflow: hidden;
+}
+.project1-container{
+  perspective: 400px;
+}
+@keyframes fadeIn {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+.project1-container img{
+  padding: 20px;
+  width: 50%;
+  display: flex;
+  
+  }
+  
+.prj1-content{
+  left: 60%;
+  bottom: 50%;
+ display: block;
+ position: absolute;
+ animation: fadeIn 3s;
+}
+
+.project2-container img{
+  padding: 20px;
+  width: 50%;
+  display: flex;
+  
+  }
+  
+.prj2-content{
+  left: 60%;
+  bottom: 50%;
+ display: block;
+ position: absolute;
+ animation: fadeIn 3s;
+}
+.project3-container{
+  perspective: 400px;
+}
+.project3-container img{
+  padding: 10px;
+  width: 50%;
+  display: flex;
+  
+  }
+  
+.prj3-content{
+  left: 60%;
+  bottom: 50%;
+ display: block;
+ position: absolute;
+ animation: fadeIn 3s;
+}
+.contact a {
+  color: #3498db;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #2c3e50;
+  color: white;
+  margin-top: 40px;
+}
+@media screen and (max-width:1080px){
+  .prf-container{
+    position: relative;
+    left: 10%;
+    bottom: 40px;
+  }
+  .profile-img{
+    width: 100%;
+    left: 0%;
+    position: relative;
+    filter: grayscale(0%);
+  }
+  .hero h1{
+    position: inherit;
+    font-size: 30px;
+  }
+    .hero p{
+    position: inherit;
+    font-size: 25px;
+  }
+    .hero .btn{
+    position: inherit;
+    font-size: 20px;
+  }
+  .imgcard{
+    position: absolute;
+    left: 45%;
+    top: 40%;
+  }
+  .progress-container{
+    width: 350px;
+    left: 0%;
+  }
+  article{
+   height: 800px;
+  }
+ @keyframes luffyRun {
+  from{
+    left: 0%;
+  }
+  to{
+    left: 70%;
+  }
+  
+ }
+ @keyframes raceRun {
+  from {
+    left: 0%;
+  }
+  to {
+    left: 65%;
+  }
+}
+ @keyframes heavyRun {
+  from {
+    left: 0%;
+  }
+  to {
+    left: 40%;
+  }
+} @keyframes rocketRun {
+  from {
+    left: 0%;
+  }
+  to {
+    left: 60%;
+  }
+} @keyframes fastRun {
+  from {
+    left: 0%;
+  }
+  to {
+    left: 40%;
+  }
+} @keyframes marryRun {
+  from {
+    left: 0%;
+  }
+  to {
+    left: 55%;
+  }
+} @keyframes manRun {
+  from {
+    left: 0%;
+  }
+  to {
+    left: 50%;
+  }
+}
+ @keyframes cycleRun {
+  from {
+    left: 0%;
+  }
+  to {
+    left: 35%;
+  }
+}
+.project1-container img{
+  width: 90%;
+  height: 30%;
+  top: 5px;
+  position: relative;
+  box-shadow: 10px 7px 20px rgb(145, 145, 145);
+
+}
+.prj1-content{
+  padding: 10px;
+  top: 10px;
+  left: 5%;
+  width: 90%;
+  position: relative;
+  bottom: 200px;
+}
+.project2-container img{
+  margin-top: 30px;
+  left: 5%;
+  width: 80%;
+  height: 30%;
+  top: 5px;
+  position: relative;
+  box-shadow: 10px 7px 20px rgb(146, 146, 146);
+
+}
+.prj2-content{
+  padding: 10px;
+  top: 15px;
+  left: 5%;
+  width: 90%;
+  position: relative;
+  bottom: 200px;
+}
+.project3-container img{
+  width: 90%;
+  height: 30%;
+  left: 5%;
+  top: 5px;
+  position: relative;
+  box-shadow: 10px 7px 20px rgb(146, 146, 146);
+
+}
+.prj3-content{
+  padding: 10px;
+  top: 25px;
+  left: 10%;
+  width: 90%;
+  position: relative;
+  bottom: 150px;
+}
+}

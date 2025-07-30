@@ -1,0 +1,184 @@
+{
+"foods" :[
+    {
+        "id": 1,
+        "image":"http://localhost:3000/food-assets/Veg Meals.jpg",
+        "price":"150",
+        "name":"veg meals",
+        "type":"Veg meals",
+        "hotel":"A2B"
+    },
+      {
+        "id": 2,
+        "image":"http://localhost:3000/food-assets/non veg meal.jpg",
+        "price":"199",
+        "name":"non-veg meals",
+        "type":"Non-veg",
+        "hotel":"Amman mess"
+    },
+      {
+        "id": 3,
+        "image":"http://localhost:3000/food-assets/parotta (2).jpg",
+        "price":"15/P",
+        "name":"parotta",
+        "type":"Non-veg",
+        "hotel":"Amman mess"
+    },
+      {
+        "id": 4,
+        "image":"http://localhost:3000/food-assets/idly.jpg",
+        "price":"10/P",
+        "name":"idly",
+        "type":"Veg meals",
+        "hotel":"A2B"
+    },
+      {
+        "id": 5,
+        "image":"http://localhost:3000/food-assets/dosa.jpg",
+        "price":"30",
+        "name":"Dosa",
+        "type":"Veg meals",
+        "hotel":"A2B"
+    },
+      {
+        "id": 6,
+        "image":"http://localhost:3000/food-assets/chicken curry.jpg",
+        "price":"80",
+        "name":"chickn curry",
+        "type":"Curry",
+        "hotel":"amman mess "
+    },
+      {
+        "id": 7,
+        "image":"http://localhost:3000/food-assets/pongal.jpg",
+        "price":"50",
+        "name":"pongal",
+        "type":"Veg meals",
+        "hotel":"amman mess"
+    },
+      {
+        "id": 8,
+        "image":"http://localhost:3000/food-assets/vadai.jpg",
+        "price":"15/P",
+        "name":"Vadai",
+        "type":"Veg meals",
+        "hotel":"A2B"
+    },
+      {
+        "id": 9,
+        "image":"http://localhost:3000/food-assets/Ven Pongal.jpg",
+        "price":"70",
+        "name":"Ven Pongal",
+        "type":"Veg meals",
+        "hotel":"A2B"
+    },
+      {
+        "id": 10,
+        "image":"http://localhost:3000/food-assets/veg roll.jpg",
+        "price":"35",
+        "name":"veg roll",
+        "type":"Fusion dish",
+        "hotel":"A2B"
+    },
+      {
+        "id": 11,
+        "image":"http://localhost:3000/food-assets/special dhal.jpg",
+        "price":"60",
+        "name":"special dhal",
+        "type":"Veg meals",
+        "hotel":"A2B"
+    },
+      {
+        "id": 12,
+        "image":"http://localhost:3000/food-assets/verkadalai.jpg",
+        "price":"30",
+        "name":"verkadalai",
+        "type":"Snacks",
+        "hotel":"A2B"
+    },
+      {
+        "id": 13,
+        "image":"http://localhost:3000/food-assets/veg soup.jpg",
+        "price":"45",
+        "name":"Veg soup",
+        "type":"Soup",
+        "hotel":"A2B"
+    },
+      {
+        "id": 14,
+        "image":"http://localhost:3000/food-assets/tandori chai.jpg",
+        "price":"49",
+        "name":"Tandori chai",
+        "type":"Snacks",
+        "hotel":"A2B"
+    },
+      {
+        "id": 15,
+        "image":"http://localhost:3000/food-assets/chicken momos.jpg",
+        "price":"100",
+        "name":"chicken momos",
+        "type":["Chickens","Fusion dish"],
+        "hotel":"Amman mess"
+    },
+      {
+        "id": 16,
+        "image":"http://localhost:3000/food-assets/dosa (2).jpg",
+        "price":"55",
+        "name":"Dosa",
+        "type":"Veg meals",
+        "hotel":"A2B"
+    },
+      {
+        "id": 17,
+        "image":"http://localhost:3000/food-assets/pani puri.jpg",
+        "price":"50",
+        "name":"pani puri",
+        "type":"Snacks",
+        "hotel":"A2B"
+    },
+      {
+        "id": 18,
+        "image":"http://localhost:3000/food-assets/tea.jpg",
+        "price":"15",
+        "name":"tea",
+        "type":"Snacks",
+        "hotel":"A2B"
+    },
+      {
+        "id": 19,
+        "image":"http://localhost:3000/food-assets/chicken soup.jpg",
+        "price":"70",
+        "name":"chicken soup",
+        "type":["Soup","Chickens"],
+        "hotel":"Amman mess"
+    },
+      {
+        "id": 20,
+        "image":"http://localhost:3000/food-assets/chicken curry (2).jpg",
+        "price":"150",
+        "name":"special chicken curry",
+        "type":["Chickens","Curry"],
+        "hotel":"Amman mess"
+    },
+      {
+        "id": 21,
+        "image":"http://localhost:3000/food-assets/ginger tea.jpg",
+        "price":"25",
+        "name":"Ginger tea",
+        "type":"Snacks",
+        "hotel":"A2B"
+    },
+      {
+        "id": 22,
+        "image":"http://localhost:3000/food-assets/lemon tea.jpg",
+        "price":"20",
+        "name":"Lemon tea",
+        "type":"Snacks",
+        "hotel":"A2B"
+    }
+      
+
+  ]    
+   
+
+}
